@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Richard | Développeur Web</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <h1>Richard</h1>
+
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ACCUEIL -->
+
+    <section id="accueil" class="hero">
+
+        <div>
+
+            <p class="petit-titre">
+                DÉVELOPPEUR WEB EN APPRENTISSAGE
+            </p>
+
+            <h2>
+                Salut, je suis <span>Richard mimboro</span>
+            </h2>
+
+            <p>
+                Je suis un apprenant en programmation web.
+                Je crée actuellement des projets avec
+                HTML, CSS et JavaScript.
+            </p>
+
+            <a href="#projets" class="bouton">
+                Voir mes projets
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- À PROPOS -->
+
+    <section id="apropos" class="section">
+
+        <h2>À propos de moi</h2>
+
+        <p>
+            Je suis actuellement en apprentissage de la
+            programmation web. Je développe mes compétences
+            en créant de petits projets pratiques.
+        </p>
+
+        <p>
+            Mon objectif est de progresser progressivement
+            et de devenir développeur web.
+        </p>
+
+    </section>
+
+
+    <!-- COMPÉTENCES -->
+
+    <section id="competences" class="section">
+
+        <h2>Mes compétences</h2>
+
+        <div class="competences">
+
+            <div class="competence">
+                <h3>HTML</h3>
+                <p>
+                    Création de la structure des pages web.
+                </p>
+            </div>
+
+            <div class="competence">
+                <h3>CSS</h3>
+                <p>
+                    Mise en forme, design et adaptation
+                    aux écrans mobiles.
+                </p>
+            </div>
+
+            <div class="competence">
+                <h3>JavaScript</h3>
+                <p>
+                    Interaction avec les utilisateurs,
+                    événements, formulaires et logique.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJETS -->
+
+    <section id="projets" class="section projets-section">
+
+        <h2>Mes projets</h2>
+
+        <p class="description">
+            Voici quelques projets que j'ai réalisés
+            pendant mon apprentissage.
+        </p>
+
+        <div class="projets">
+
+
+            <!-- PROJET 1 -->
+
+            <article class="projet">
+
+                <div class="numero">01</div>
+
+                <h3>🎯 Jeu de Devinette</h3>
+
+                <p>
+                    Un petit jeu JavaScript dans lequel
+                    l'utilisateur doit deviner un nombre
+                    secret entre 1 et 100.
+                </p>
+
+                <div class="technologies">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+            </article>
+
+
+            <!-- PROJET 2 -->
+
+            <article class="projet">
+
+                <div class="numero">02</div>
+
+                <h3>🎓 Formulaire d'inscription</h3>
+
+                <p>
+                    Un formulaire permettant de saisir
+                    les informations d'un étudiant et
+                    de vérifier les champs avant
+                    l'inscription.
+                </p>
+
+                <div class="technologies">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+            </article>
+
+
+            <!-- PROJET 3 -->
+
+            <article class="projet">
+
+                <div class="numero">03</div>
+
+                <h3>🧮 Calculatrice</h3>
+
+                <p>
+                    Une calculatrice permettant d'effectuer
+                    des additions, soustractions,
+                    multiplications et divisions.
+                </p>
+
+                <div class="technologies">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+            </article>
+
+
+            <!-- PROJET 4 -->
+
+            <article class="projet">
+
+                <div class="numero">04</div>
+
+                <h3>📊 Gestionnaire de notes</h3>
+
+                <p>
+                    Une application permettant de saisir
+                    les notes d'un étudiant, calculer sa
+                    moyenne et afficher son résultat.
+                </p>
+
+                <div class="technologies">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="section contact">
+
+        <h2>Me contacter</h2>
+
+        <p>
+            Vous pouvez me laisser un message.
+        </p>
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="nomContact"
+                placeholder="Votre nom"
+            >
+
+            <input
+                type="email"
+                id="emailContact"
+                placeholder="Votre email"
+            >
+
+            <textarea
+                id="messageContact"
+                placeholder="Votre message"
+            ></textarea>
+
+            <button type="submit">
+                Envoyer
+            </button>
+
+        </form>
+
+        <p id="messageForm"></p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 Richard - Portfolio développeur web
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
