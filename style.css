@@ -280,7 +280,9 @@ header {
 #messageForm {
     font-weight: bold;
 }
-
+.btn {
+  text-decoration: none;
+}
 
 /* FOOTER */
 
