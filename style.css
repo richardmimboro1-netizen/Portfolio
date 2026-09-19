@@ -281,7 +281,18 @@ header {
     font-weight: bold;
 }
 .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #123c69;
+  color: white;
   text-decoration: none !important;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* FOOTER */
